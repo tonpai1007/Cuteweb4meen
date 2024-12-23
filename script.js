@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     flower.addEventListener("click", () => {
       selectedFlower = flower.dataset.flower;
       resetFlowerSelection();
-      flower.style.border = "5px solid gold";
+      flower.style.border = "5px solid gold"; // Highlight the selected flower
     });
   });
 
